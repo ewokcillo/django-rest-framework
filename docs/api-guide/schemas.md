@@ -423,7 +423,7 @@ Returns a string to indicate the encoding for any request body, when interacting
 with the given view. Eg. `'application/json'`. May return a blank string for views
 that do not expect a request body.
 
-### get_path_fields(self, path, method, view):
+### get_path_fields(self, path, method, view)
 
 Return a list of `coreapi.Link()` instances. One for each path parameter in the URL.
 
@@ -431,7 +431,7 @@ Return a list of `coreapi.Link()` instances. One for each path parameter in the 
 
 Return a list of `coreapi.Link()` instances. One for each field in the serializer class used by the view.
 
-### get_pagination_fields(self, path, method, view
+### get_pagination_fields(self, path, method, view)
 
 Return a list of `coreapi.Link()` instances, as returned by the `get_schema_fields()` method on any pagination class used by the view.
 
